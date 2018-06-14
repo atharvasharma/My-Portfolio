@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 <head>
 	<title>My resume </title>
@@ -6,23 +6,93 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="landing page.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  
+  margin-top: 7.5%;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+
+
+</style>
 
 
 </head>
 <body>
 	<div class="top-lnm">
 		<!-- Nav bar -->
-		<nav class="navbar navbar-expand-sm fixed-top" id="navigation">
+		<nav class="navbar navbar-expand-sm" id="navigation">
 			<div class="container" >
 
-  				<ul class="navbar-nav">
+  				<ul class="navbar-nav" style="margin-top: 1%;">
   				
     				<li class="nav-item active" >
       					<a class="nav-link " active href="#" visited id="navbar-links"><span id="home">Home</span></a>
     				</li>
   				</ul>
 
-  				<ul class="navbar-nav ml-auto">
+  				<ul class="navbar-nav ml-auto" style="margin-top: 1%;">
   				
     				<li class="nav-item active" >
       					<a class="nav-link " active href="https://github.com/atharvasharma"target="_blank" visited id="navbar-links"><span id="home"><i class="fab fa-github" style="font-size: 50px;"></i></span></a>
@@ -42,36 +112,62 @@
   				</ul>
   			</div>
 		</nav>
+	
 		<!--Name and Photo-->
+		<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="center">
 					<h1 class="welcome">Atharva Sharma</h1>
 					<p class="giveborder"> Computer and Communication Engineer</p>
-					<img src="images/my click.jpg" alt="my photo" style="height: 250px;width :250px; margin-top:50px;border:5px solid white; border-radius: 50%;">
+					<img src="images/my click.jpg" alt="my photo" style="height: 250px;width :250px; margin-top:8%;border:5px solid white; border-radius: 50%;">
 					
 
 				</div>
 
 			</div>
 		</div>
-		
+		</div>
 
-		<div class="container" style="border-bottom: 2px solid grey ;padding-bottom:30px;">
+</div>
+
+<div class="slideshow-container">
+	<div class="mySlides">
+  
+
+  <div class="container" style="text-align:left;">
+  	<h1 style="font-weight:700;border-bottom: 4px solid red;text-align: center;width: 20%;margin-left: 40%;margin-bottom: 4%;">ABOUT ME</h1>
+  	<div class="row">
+  		<div class="col-lg-6">
+  			<p style="font-size: 19px;text-align: left;">Inquisitive, energetic <b>Web Developer</b> with a flair for creating elegant solutions in the least amount of time. Passionate about <b>Front-End Web Development and Programming</b>. An enthusiastic team player and deep creative thinker. Always ahead in exploring new fields and areas to enhance professional skills.</p>
+  		</div>
+  	
+
+  		<div class="col-lg-6">
+			<p style="font-size: 19px;text-align: left;">I'm very much inclined towards working in such environment where my opinions and analytic skills will be used. I like dealing with the people in a professional way and influencing them.</p>
+			<p style="font-size: 19px;text-align: left;">I'm looking for an <b>Internship</b> as a <b>Web Developer</b> so that I can gain experience and professionalism. 
+		</div>
+	</div>
+</div>
+</div>
+
+
+<div class="mySlides">
+	<div class="container"style="text-align: left;">
 			<div class="row">
 				<div class="col-lg-6">
-					<h1 style="border-bottom: 4px solid red ;width:32%;">Education</h1>
+					<h1 style="border-bottom: 4px solid red ;width:35%;font-weight: 600;">Education</h1>
 			
-					<span style="font-size: 20px; font-weight: 600; margin-top: 50px; line-height: 30px;">
-						The LNM Institue of Information Technology
+					<span style="font-size: 20px; font-weight: 600; line-height: 30px;width: 100%;" align="left">
+						The LNM Institute of Information Technology
 					</span>
 					<br>
-					<span style="margin-top:10px;line-height: 30px;">Bachelor of Technology, Computer and Communication, 8.33</span>
-					<p style="font-weight: 200;">2017-2021</p>
+					<span style="line-height: 30px;">Bachelor of Technology, Computer and Communication, 8.33</span>
+					<p >2017-2021</p>
 				</div>
 
 				<div class="col-lg-6">
-					<h1 style="border-bottom: 4px solid red ;width:25%;">Courses</h1>
+					<h1 style="border-bottom: 4px solid red ;width:30%;font-weight: 600;">Courses</h1>
 			
 					<p>Computer Programming , Data Structure , Discrete Mathematics</p>
 					<p style="line-height: 10px;">Introduction to C++ , Javascript , HTML , CSS , Bootstrap </p>
@@ -80,14 +176,14 @@
 
 			<div class="row">
 				<div class="col-lg-6">
-					<h1 style="border-bottom: 4px solid red ;width:16%;">Skills</h1>
-					<p>C , Data Structure and Algorithms , Microsoft Word , Powerpoint</p>
-					<p>HTML , CSS , Javascript , Bootstrap ,  Adobe Premiere Pro </p> 
+					<h1 style="border-bottom: 4px solid red ;width:20%;font-weight: 600;">Skills</h1>
+					<p> C , C++ , Javascript , Cascading Style Sheets (CSS) </p>
+					<p>HTML , jQuery , Bootstrap , Document Object Model (DOM) </p> 
 			
 				</div>
 
 				<div class="col-lg-6">
-					<h1 style="border-bottom: 4px solid red ;width:35%;">Experience</h1>
+					<h1 style="border-bottom: 4px solid red ;width:40%;font-weight: 600;">Experience</h1>
 					<div class="row">
 						<div class="col-lg-4" style="width: 33%;">
 							<span style="font-size: 20px; font-weight: 600; margin-top: 50px; line-height: 30px;">
@@ -95,7 +191,7 @@
 							</span>
 							<br>
 							<span style="margin-top:10px;line-height: 30px;">Member</span>
-							<p style="font-weight: 200;">April 2018 -Present</p>
+							<p>April 2018 -Present</p>
 						</div>
 						<div class="col-lg-4" style="width: 33%;">
 							<span style="font-size: 20px; font-weight: 600; margin-top: 50px; line-height: 30px;">
@@ -103,54 +199,98 @@
 							</span>
 							<br>
 							<span style="margin-top:10px;line-height: 30px;">Member</span>
-							<p style="font-weight: 200;">2017 -Present</p>
+							<p>2017 -Present</p>
 						</div>
 						<div class="col-lg-4" style="width: 33%;">
 							<span style="font-size: 20px; font-weight: 600; margin-top: 50px; line-height: 30px;">
 								Placement Cell
 							</span>
 							<br>
-							<span style="margin-top:10px;line-height: 30px;">Member</span>
-							<p style="font-weight: 200;">April 2018 -Present</p>
+							<span style="margin-top:10px;line-height: 30px;">Web Developer</span>
+							<p>April 2018 -Present</p>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+</div>
+</div>
 
-		
+
+
+<div class="mySlides">
+  <div class="container"style="line-height: 40px;font-size: 20px;">
+  <h1 style="font-weight:700;border-bottom: 4px solid red;width: 27%;text-align:center;margin-left:37%;margin-bottom: 5%;"> Contact Details</h1>
+  	<div class="row">
+  		<div class="col-lg-6"style="text-align: left;">
+  			<span style="font-weight: 600;font-size: 22px;">Phone Number:</span><p>8890307960</p>
+  		</div>
+  		<div class="col-lg-6"style="text-align: left;">
+  			<span style="font-weight: 600;font-size: 22px;">Email:</span><p>atharvasjp1@gmail.com</p>
+  		</div>
+
+  	</div>
+  	<div class="row" >
+  		<div class="col-lg-6"style="text-align: left ;">
+  			<span style="font-weight: 600;font-size: 22px;">Address:</span><p>LNMIIT,Rupa ki Nangal, Post-Sumel, Via-Jamdoli, Jaipur, Rajasthan 302031</p>
+
+  		</div>
+  		<div class="col-lg-6"style="text-align: left;">
+  			<span style="font-weight: 600;font-size: 22px;">Linkedin Profile:</span><p><a href="https://www.linkedin.com/in/atharva-sharma-152476148/">https://www.linkedin.com/in/atharva-sharma-152476148/</a></p>
+  		</div>
+
+  	</div>
+
+  </div>
+
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)" >❯</a>
+
+</div>
+
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
 			
-			<div class="container" style="padding-top:30px;border-bottom: 2px solid grey;margin-bottom: 15px;">
-				<h1 class="conacts" style="font-weight: 500;">Contact Details</h1>
-				<div class="row">
-					<div class="col-lg-6">	
-				<h3>Address:</h3>
-				<p>LNMIIT, Rupa ki Nangal, Post-Sumel, Via-Jamdoli, Jaipur, Rajasthan 302031</p>
-					</div>
-					<div class="col-lg-6">	
-				<h3>Contact Number:</h3>
-				<p>8890307960</p>
-					</div>
-
-				</div>
-
-				<div class="row">
-					<div class="col-lg-6">	
-				<h3>Linkedin Profile:</h3>
-				<p><a href="linkedin.com/in/atharva-sharma-152476148">linkedin.com/in/atharva-sharma-152476148</a></p>
-					</div>
-					<div class="col-lg-6">	
-				<h3>Email:</h3>
-				<p>atharvasjp1@gmail.com</p>
-					</div>
-
-				</div>
-			</div>
-		
+			
 
 
 
-	</div>
+	
 
 	
 	
@@ -161,3 +301,5 @@
 
 </body>
 </html>
+
+    
