@@ -65,6 +65,10 @@
    .popup-content{
       width:85% !important;
    }
+   .closeButton{
+      z-index:1000;
+   }
+
 
    /* Testimonials Section
    ------------------------------------------------------------------- */
@@ -267,6 +271,16 @@
    }
    .popup-content{
       width:85% !important;
+   }
+   .closethis{
+      display:none !important;
+   }
+   .descrip-2{
+      display: none !important;
+   }
+   .project-name{
+      font-size:1.8rem !important;
+      margin-right:11%;
    }
    /* Testimonials Section
    ----------------------------------------------------------------------- */
