@@ -32,7 +32,7 @@ export default  class Resume extends Component {
                         </div>
                     </div>
                   </React.Fragment>
-                )
+                ) 
               })
             }
           </div>
@@ -54,10 +54,18 @@ export default  class Resume extends Component {
                             <div className="twelve columns">
                                 <h3>{item.CompanyName}</h3>
                                 <p className="info">
-                                  <h5>{item.specialization}  <em className="date">({item.MonthOfLeaving} {item.YearOfLeaving})</em></h5>
+                                  <h5>{item.specialization}  <em className="date">({item.joiningDate} - {item.leavingDate})</em></h5>
                                 </p>
                                 <span>
-                                {item.Achievements}
+                                  <ul className="job-achievements">
+                                  {
+                                    item.Achievements.map((achivement)=>{
+                                      return (
+                                        <li>{achivement}</li>
+                                      );
+                                    })
+                                  }
+                                  </ul>
                                 </span>
                             </div>
                           </div>
@@ -69,35 +77,6 @@ export default  class Resume extends Component {
             }
             
           </div> 
-          <div className="row education">
-            <div className="twelve columns  text-center">
-               <h1><span>Position of Responsibility</span></h1>
-            </div>
-            {
-              resumeData.positions && resumeData.positions.map((item)=>{
-                return(
-                  <React.Fragment key={item}>
-                       <div className="three columns givePadding">
-                        <img src={item.imageUrl} className="positionsImage"/>
-                      </div>
-                      <div className="nine columns main-col givePadding">
-                          <div className="row item">
-                            <div className="twelve columns">
-                                <h3>{item.organization}</h3>
-                                <p className="info">
-                                  <h5>{item.designation}</h5>
-                                </p>
-                                <span>
-                                {item.role}
-                                </span>
-                            </div>
-                          </div>
-                      </div>
-                  </React.Fragment>
-                )
-              })
-            }
-          </div>
           <div className="row skills">
             <div className="twelve columns  text-center">
                <h1><span>Skills</span></h1>
@@ -114,7 +93,43 @@ export default  class Resume extends Component {
               })
             }
           </div>
-          
+          <div className="row">
+            <div className="twelve columns  text-center">
+               <h1><span>Personal Projects</span></h1>
+            </div>
+            {
+              resumeData.portfolio && resumeData.portfolio.map((item)=>{
+                return(
+                  <React.Fragment key={item}>
+                    
+                      <div className="three columns givePadding">
+                        <img src={item.imageUrl} alt="Project logo" className="companyImage"/>
+                      </div>
+                      <div className="nine columns main-col givePadding">
+                          <div className="row item">
+                            <div className="twelve columns">
+                                <h3>{item.title} <a className="github-icon" target="_blank" href={item.link}> <i className="fa fa-github"></i></a></h3> 
+                                <span>
+                                  <ul className="job-achievements">
+                                  {
+                                    item.description.map((description)=>{
+                                      return (
+                                        <li>{description}</li>
+                                      );
+                                    })
+                                  }
+                                  </ul>
+                                </span>
+                            </div>
+                          </div>
+                      </div>
+                    
+                  </React.Fragment>
+                )
+              })
+            }
+            
+          </div> 
           
          
       </section>
