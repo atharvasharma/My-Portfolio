@@ -28,7 +28,7 @@ let resumeData = {
         "YearOfPassing":"2021",
         "CGPA":"8.17",
         "Societies" : "Training & Placement Cell, Computer Society of India, Music Club",
-        "ImageUrl" : "/images/Logo-LNMIIT.svg"
+        "ImageUrl" : "https://raw.githubusercontent.com/atharvasharma/My-Portfolio/9c5b133a6b56c0007cf42e692b442e3d34e75b7e/public/images/Logo-LNMIIT.svg"
       },
     ],
     "work":[
@@ -41,7 +41,7 @@ let resumeData = {
           " Constructing new building blocks for the application to incorporate modern UX in Angular. ",
           " Migrating entire Purchase Management Module from Choona.js (in-house framework) to Angular."
         ],
-        "ImageUrl":"/images/Unicommerce.png",
+        "ImageUrl":"https://raw.githubusercontent.com/atharvasharma/My-Portfolio/master/public/images/Unicommerce.png",
       },
       {
         "CompanyName":"Unicommerce",
@@ -53,7 +53,7 @@ let resumeData = {
           "Worked on Internationalization support for the application, developed a PWA using Ionic.",
           "Worked on Native JavaScript to understand and modify 7 years old JavaScript code"
         ],
-        "ImageUrl":"/images/Unicommerce.png",
+        "ImageUrl":"https://raw.githubusercontent.com/atharvasharma/My-Portfolio/master/public/images/Unicommerce.png",
       },
       {
         "CompanyName":"Outscal",
@@ -64,7 +64,7 @@ let resumeData = {
           "Worked on automating several processes in Google Classroom, to avoid manual work.",
           "Developed a polling mechanism to deal with a bug in Google Forms."
         ],
-        "ImageUrl":"/images/outscal.png",
+        "ImageUrl":"https://raw.githubusercontent.com/atharvasharma/My-Portfolio/master/public/images/outscal.png",
       }
     ],
     "skillsDescription":"Your skills here",
@@ -81,7 +81,7 @@ let resumeData = {
           "Used React, Semantic UI to build a responsive and minimal user interface."
         ],
         "link":"https://github.com/atharvasharma/Registration-Management",
-        "imageUrl": "/images/project1.png"
+        "imageUrl": "https://raw.githubusercontent.com/atharvasharma/My-Portfolio/master/public/images/project1.PNG"
       }
     ]
   }
