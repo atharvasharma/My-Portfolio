@@ -1,13 +1,23 @@
 {
-  "main.css": "/atharvasharma/My-Portfolio/static/css/main.badc2986.chunk.css",
-  "main.js": "/atharvasharma/My-Portfolio/static/js/main.c5be29ed.chunk.js",
-  "main.js.map": "/atharvasharma/My-Portfolio/static/js/main.c5be29ed.chunk.js.map",
-  "static/js/1.1048638a.chunk.js": "/atharvasharma/My-Portfolio/static/js/1.1048638a.chunk.js",
-  "static/js/1.1048638a.chunk.js.map": "/atharvasharma/My-Portfolio/static/js/1.1048638a.chunk.js.map",
-  "runtime~main.js": "/atharvasharma/My-Portfolio/static/js/runtime~main.758de0ba.js",
-  "runtime~main.js.map": "/atharvasharma/My-Portfolio/static/js/runtime~main.758de0ba.js.map",
-  "static/css/main.badc2986.chunk.css.map": "/atharvasharma/My-Portfolio/static/css/main.badc2986.chunk.css.map",
-  "index.html": "/atharvasharma/My-Portfolio/index.html",
-  "precache-manifest.9f4a6847d871fa941353fb741b4f0ca1.js": "/atharvasharma/My-Portfolio/precache-manifest.9f4a6847d871fa941353fb741b4f0ca1.js",
-  "service-worker.js": "/atharvasharma/My-Portfolio/service-worker.js"
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/My-Portfolio/static/js/main.ca5450c6.chunk.js",
+    "main.js.map": "/My-Portfolio/static/js/main.ca5450c6.chunk.js.map",
+    "runtime-main.js": "/My-Portfolio/static/js/runtime-main.722377e7.js",
+    "runtime-main.js.map": "/My-Portfolio/static/js/runtime-main.722377e7.js.map",
+    "static/js/2.25442c46.chunk.js": "/My-Portfolio/static/js/2.25442c46.chunk.js",
+    "static/js/2.25442c46.chunk.js.map": "/My-Portfolio/static/js/2.25442c46.chunk.js.map",
+    "static/js/3.9b245b38.chunk.js": "/My-Portfolio/static/js/3.9b245b38.chunk.js",
+    "static/js/3.9b245b38.chunk.js.map": "/My-Portfolio/static/js/3.9b245b38.chunk.js.map",
+    "index.html": "/My-Portfolio/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/My-Portfolio/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.25442c46.chunk.js.LICENSE.txt": "/My-Portfolio/static/js/2.25442c46.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/My-Portfolio/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.722377e7.js",
+    "static/js/2.25442c46.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.ca5450c6.chunk.js"
+  ]
 }
