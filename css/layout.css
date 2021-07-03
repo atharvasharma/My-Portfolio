@@ -263,7 +263,7 @@ ul#nav li.current a { color: #F06000; }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
-.education, .work {
+.education, .work, .skills {
    margin-top:20px;
    margin-bottom: 48px;
    padding-bottom: 24px;
@@ -1078,3 +1078,22 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover { background-color: #0F9095; }
 
+
+.job-achievements{
+   list-style: circle;
+   padding-left: 1.5rem;
+}
+
+.projects{
+   color:white;
+}
+
+#Projects{
+   color: white;
+   background-color: #095153;
+}
+
+
+a.github-icon{
+   color:inherit !important;
+}

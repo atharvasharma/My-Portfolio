@@ -62,14 +62,6 @@
    #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
    #resume .main-col { padding-right: 5%; }   
 
-   .popup-content{
-      width:85% !important;
-   }
-   .closeButton{
-      z-index:1000;
-   }
-
-
    /* Testimonials Section
    ------------------------------------------------------------------- */
    #testimonials .header-col h1:before {
@@ -244,9 +236,7 @@
    #resume h3, #resume .info { text-align: center; }
       
    .bars { width: 100%; }
-   .companyImage{
-      display: none !important;
-   }
+
 
    /* Call To Action Section
    /* ----------------------------------------------------------------- */
@@ -266,22 +256,8 @@
    /* ----------------------------------------------------------------- */
    #portfolio-wrapper .columns { margin-bottom: 40px; }
    .popup-modal {	max-width: 85%; }
-   .modalImage {
-      display: none !important;
-   }
-   .popup-content{
-      width:85% !important;
-   }
-   .closethis{
-      display:none !important;
-   }
-   .descrip-2{
-      display: none !important;
-   }
-   .project-name{
-      font-size:1.8rem !important;
-      margin-right:11%;
-   }
+
+
    /* Testimonials Section
    ----------------------------------------------------------------------- */
    #testimonials .text-container { text-align: center; }
