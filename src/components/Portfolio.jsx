@@ -64,11 +64,11 @@ const Portfolio = () => {
     {
       title: "URL Shortener with TTL",
       description: [
-      "Designed and developed a Node.js backend for a URL shortener service with TTL-based expiration, ensuring time-sensitive access to shortened links.",
-      "Implemented RESTful APIs for creating short URLs with a customizable TTL and retrieving the original URL before expiry.",
-      "Utilized in-memory database for efficient storage and TTL management of shortened URLs.",
-      "Built a React.js frontend with intuitive forms for inputting long URLs and TTL, displaying the generated short URL.",
-      "Ensured robust functionality with validation, error handling, and automated expiration using scheduled tasks or database TTL indexes."
+        "Designed and developed a Node.js backend for a URL shortener service with TTL-based expiration, ensuring time-sensitive access to shortened links.",
+        "Implemented RESTful APIs for creating short URLs with a customizable TTL and retrieving the original URL before expiry.",
+        "Utilized in-memory database for efficient storage and TTL management of shortened URLs.",
+        "Built a React.js frontend with intuitive forms for inputting long URLs and TTL, displaying the generated short URL.",
+        "Ensured robust functionality with validation, error handling, and automated expiration using scheduled tasks or database TTL indexes."
       ],
       technologies: ["React", "Node.js", "Express", "S3"],
       links: [
@@ -111,7 +111,7 @@ const Portfolio = () => {
             {/* Desktop Navigation */}
             <nav className="hidden md:block">
               <div className="flex gap-1 rounded-lg p-1">
-                {['home', 'resume', 'projects', 'photography', 'contact',].map((tab) => (
+                {['home', 'resume', 'projects', 'contact'].map((tab) => (
                   <button
                     key={tab}
                     onClick={() => setActiveTab(tab)}
@@ -139,7 +139,7 @@ const Portfolio = () => {
           {isMenuOpen && (
             <nav className="md:hidden mt-4 border-t border-zinc-800 pt-4">
               <div className="flex flex-col gap-2">
-                {['home', 'resume', 'projects', 'contact', 'photography'].map((tab) => (
+                {['home', 'resume', 'projects', 'contact'].map((tab) => (
                   <button
                     key={tab}
                     onClick={() => {
@@ -169,7 +169,7 @@ const Portfolio = () => {
               <div className="flex flex-col md:flex-row items-center gap-8">
                 <div className="w-48 h-48 rounded-full overflow-hidden bg-zinc-800 flex-shrink-0">
                   <img
-                    src="https://pbs.twimg.com/profile_images/1858196583785136128/BsTuRvfs_400x400.jpg"
+                    src="https://atharva-portfolio.s3.ap-south-1.amazonaws.com/1735573507522.jpeg"
                     alt="Atharva Sharma"
                     className="w-full h-full object-cover"
                   />
@@ -214,7 +214,20 @@ const Portfolio = () => {
 
           {/* Resume Tab Content */}
           {activeTab === 'resume' && (
+
+
             <div className="space-y-8 py-12">
+              <a
+                href="https://drive.google.com/file/d/1fqRmA_wWEVf9FH0yL1RCfXuzz9Yrmqwr/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-zinc-800 hover:bg-zinc-600 inline-flex items-center gap-2 px-4 py-2 text-white rounded-lg shadow-md transition focus:ring-2 focus:ring-sky-400"
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m2 4h-4m4 0v1a3 3 0 01-3 3h-1a3 3 0 01-3-3V7a3 3 0 013-3h1a3 3 0 013 3v1m0 8h4m-4 0v1a3 3 0 003 3h1a3 3 0 003-3V7a3 3 0 00-3-3h-1a3 3 0 00-3 3v1" />
+                </svg>
+                Download Resume
+              </a>
               <section className="space-y-6">
                 <h2 className="text-2xl font-bold text-white">Skills</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -345,12 +358,6 @@ const Portfolio = () => {
                   </a>
                 </div>
               </div>
-            </div>
-          )}
-
-          {activeTab === 'photography' && (
-            <div className='text-zinc-100 font-bold flex justify-center items-center text-xl'>
-              Coming Soon...
             </div>
           )}
         </div>
